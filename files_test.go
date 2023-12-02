@@ -18,7 +18,6 @@ func TestReadFileLines(t *testing.T) {
 		t.Fatalf("Error reading file: %s", err)
 	}
 
-	// Check if the returned result matches the expected content
 	if !reflect.DeepEqual(result, fileContents) {
 		t.Errorf("Expected %v, got %v", fileContents, result)
 	}
