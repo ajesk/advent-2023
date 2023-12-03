@@ -154,7 +154,7 @@ func TestPart1Output(t *testing.T) {
 }
 
 func TestPart2Output(t *testing.T) {
-	// t.Skip("day1 part 2 passed")
+	t.Skip("day1 part 2 passed")
 	result := dayOnePartTwo()
 	t.Logf("day1, part2: %d", result)
 }
