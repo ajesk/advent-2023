@@ -390,7 +390,7 @@ func TestFindNumbersShouldGetResultsOnTwoLines(t *testing.T) {
 }
 
 func TestDay3Part2(t *testing.T) {
-	// t.Skip("day3 part 2 passed")
+	t.Skip("day3 part 2 passed")
 	result := dayThreePartTwo()
 	t.Errorf("day3, part2: %d", result)
 
