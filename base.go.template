@@ -1,11 +1,11 @@
 package main
 
-func dayXPartX() int {
-	fileContents, err := ReadFileLines("./data/day4.txt")
+func dayXPartY() int {
+	fileContents, err := ReadFileLines("./data/dayX.txt")
 
 	if err != nil {
 		return 0
 	}
 
-	return checkGamesForWinners(fileContents)
+	return 0
 }
