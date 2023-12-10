@@ -4,18 +4,22 @@ import (
 	"testing"
 )
 
-func TestDayXPartY(t *testing.T) {
-	// t.Skip("dayX part Y passed")
-	result := dayXPartY()
-	t.Errorf("dayX, partY: %d", result)
+func TestDay[x]Part1Demo(t *testing.T) {
+	lines, _ := ReadFileLines("./data/day[x]demo.txt")
+	result := methodToCall(lines)
+	expected := 0
+
+	if expected != result {
+		t.Errorf("Expected %v, got %v", expected, result)
+	}
 }
 
-func TestHowManyGamesPlayed(t *testing.T) {
-	// test := ""
-	expected := ""
+func TestDay[x]Part2Demo(t *testing.T) {
+	lines, _ := ReadFileLines("./data/day[x]demo.txt")
+	result := methodToCall(lines)
+	expected := 0
 
-	result := ""
-	if result != expected {
+	if expected != result {
 		t.Errorf("Expected %v, got %v", expected, result)
 	}
 }
