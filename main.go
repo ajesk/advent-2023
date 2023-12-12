@@ -31,8 +31,10 @@ func main() {
 	// problems = append(problems, buildProblem("Joker Face", 7, 2, day7Part2))
 	// problems = append(problems, buildProblem("Navigating the Wasteland", 8, 1, day8Part1))
 	// problems = append(problems, buildProblem("Navigating the Ghost Wasteland", 8, 2, day8Part2))
-	problems = append(problems, buildProblem("Mirage Maintenance", 9, 1, day9Part1))
-	problems = append(problems, buildProblem("Mirage Maintenance Backwards", 9, 2, day9Part2))
+	// problems = append(problems, buildProblem("Mirage Maintenance", 9, 1, day9Part1))
+	// problems = append(problems, buildProblem("Mirage Maintenance Backwards", 9, 2, day9Part2))
+	problems = append(problems, buildProblem("Pipe Maze", 10, 1, day10Part1))
+	problems = append(problems, buildProblem("Pipe Maze Gaps", 10, 2, day10Part2))
 	runResults(problems)
 }
 

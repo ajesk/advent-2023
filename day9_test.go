@@ -7,7 +7,7 @@ import (
 
 func TestDayday9Part1Demo(t *testing.T) {
 	lines, _ := ReadFileLines("./data/day9demo.txt")
-	result := extrapolateValues(lines)
+	result := extrapolateValues(lines, false)
 	expected := 114
 
 	if expected != result {
