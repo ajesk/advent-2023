@@ -46,11 +46,6 @@ func TestDay10Part2Demo4(t *testing.T) {
 	result := day10Part2File("./data/day10demo4.txt")
 	expected := 8
 
-	file, _ := ReadFileLines("./data/day10demo4.txt")
-	_, double := bfs(file)
-	println()
-	printDouble(double)
-
 	if expected != result {
 		t.Errorf("Expected %v, got %v", expected, result)
 	}
